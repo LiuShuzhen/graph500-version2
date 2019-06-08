@@ -1,0 +1,5 @@
+#PBS -N graph500
+#PBS -j oe
+#PBS -q long
+#PBS -l nodes=1:ppn=24
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 23 -e 300 ) >&  /share/home/gejianqiu/software/graph500/omp-csr/out/s23/s_s23_300.log

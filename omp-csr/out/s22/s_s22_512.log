@@ -1,0 +1,6 @@
+Out of memory trying to allocate 18446744056529682432 byte(s)
+/opt/pbs/dispatcher/mom_priv/jobs/10051.mgr.SC: line 16: 23577 Aborted                 (core dumped) /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 22 -e 512
+
+real	0m0.032s
+user	0m0.000s
+sys	0m0.003s

@@ -1,0 +1,49 @@
+#PBS -N graph500
+#PBS -j oe
+#PBS -q longtime
+#PBS -l nodes=1:ppn=24
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 32 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_32.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 48 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_48.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 64 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_64.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 80 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_80.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 96 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_96.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 112 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_112.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 128 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_128.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 144 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_144.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 160 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_160.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 176 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_176.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 192 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_192.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 208 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_208.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 224 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_224.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 240 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_240.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 256 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_256.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 272 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_272.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 288 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_288.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 304 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_304.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 320 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_320.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 336 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_336.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 352 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_352.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 368 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_368.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 384 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_384.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 400 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_400.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 416 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_416.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 432 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_432.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 448 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_448.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 464 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_464.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 480 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_480.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 496 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_496.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 512 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_512.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 528 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_528.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 544 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_544.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 560 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_560.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 576 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_576.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 592 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_592.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 608 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_608.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 624 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_624.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 295 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_25.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 296 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_296.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 297 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_297.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 298 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_298.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 299 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_299.log
+#(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 24 -e 300 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s24/s_s24_300.log
+

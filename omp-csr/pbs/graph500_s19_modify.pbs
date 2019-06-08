@@ -1,0 +1,15 @@
+#PBS -N graph500
+#PBS -j oe
+#PBS -q longtime
+#PBS -l nodes=1:ppn=24
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 290 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_290.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 291 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_291.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 292 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_292.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 293 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_293.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 294 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_294.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 295 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_295.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 296 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_296.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 297 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_297.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 298 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_298.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 299 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_299.log
+(time /share/home/gejianqiu/software/graph500/omp-csr/omp-csr -s 19 -e 300 ) >& /share/home/gejianqiu/software/graph500/omp-csr/out/s19/s_s19_300.log
